@@ -1,0 +1,117 @@
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.headerWrapper svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.headerWrapper svg:hover {
+  cursor: pointer;
+}
+
+.menuWrapper {
+  text-align: left;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  /* width: 100% !important; */
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+
+.menuWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.menu {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.menu > div {
+  padding: 0.3rem 1.5rem;
+}
+
+.profile {
+  padding: 0 0.5rem;
+}
+
+.searchBarWrapper {
+  text-align: center;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  /* width: 100% !important; */
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+
+.searchBarWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.searchBar {
+  border-radius: 5%;
+  border: 1px solid grey;
+  width: 80%;
+  margin-top: 1rem;
+}
+
+.closeSearch {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  color: #ffffff;
+}
+
+.closeSearch > span {
+  padding-right: 0.6rem;
+  font-size: 1.3rem;
+}
+
+.closeSearch > span:hover {
+  cursor: pointer;
+}
+
+.headerTools > * {
+  padding: 0 0.3rem;
+}
+
+.headerTools > *:hover {
+  cursor: pointer;
+}
+
+.cart {
+  display: inline;
+  position: relative;
+}
+
+.cartCount {
+  border-radius: 50%;
+  background-color: coral;
+  position: absolute;
+  font-size: 0.7rem;
+  color: #ffffff;
+  right: 0.2rem;
+  width: 0.7rem;
+  text-align: center;
+}

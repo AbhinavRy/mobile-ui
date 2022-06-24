@@ -1,0 +1,34 @@
+.sectionWrapper {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+.sectionWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.sectionBox {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionBox:hover {
+  cursor: pointer;
+}
+
+.sectionBorder:not(:first-child) {
+  border-left: 2px solid #ececec;
+}
+
+.sectionWrapper img {
+  height: 2.5rem;
+  padding: 1rem 2rem 0;
+}

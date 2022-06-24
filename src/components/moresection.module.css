@@ -1,0 +1,12 @@
+.sectionWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  row-gap: 0.4rem;
+}
+
+.sectionWrapper img {
+  height: 50%;
+  width: 90%;
+  object-fit: cover;
+}

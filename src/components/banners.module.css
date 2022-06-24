@@ -1,0 +1,22 @@
+.bannerWrapper {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  flex: none;
+  flex-flow: row nowrap;
+}
+
+.bannerWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.bannerWrapper img {
+  width: 100vw;
+  object-fit: cover;
+  min-height: 12rem;
+  scroll-snap-align: start;
+}

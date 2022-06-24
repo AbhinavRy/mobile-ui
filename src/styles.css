@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.App {
+  font-family: sans-serif;
+}
+
+.page-text {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.second-banner {
+  width: 100%;
+  object-fit: cover;
+  min-height: 12rem;
+}
+
+.divider {
+  margin-bottom: 3.6rem;
+}
