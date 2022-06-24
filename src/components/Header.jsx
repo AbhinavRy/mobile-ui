@@ -18,8 +18,8 @@ const Header = (props) => {
       >
         <div className={classes.menu}>
           <p className={classes.profile}>Profile</p>
-          {menuItems.map((item) => {
-            return <div>{item}</div>;
+          {menuItems.map((item, i) => {
+            return <div key={i}>{item}</div>;
           })}
         </div>
       </div>
